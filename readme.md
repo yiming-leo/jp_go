@@ -17,4 +17,4 @@ need install:
 pip install requirements.txt
 ```
 ## User Guide
-the `db` is for 言葉 storage, 
+the Excel file in `db` is for 言葉 storage, please add it or modify it when need more 言葉
