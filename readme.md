@@ -17,25 +17,33 @@
 <br>`ffmpeg` is necessary to INSTALL LOCALLY for customize the speed of audio
 <br>
 
-1. 在项目根目录的控制台内激活虚拟环境（用的是虚拟环境，不影响外部环境）
-```
-# windows
-.venv\Scripts\activate
-```
-```
-# macOS / Linux
-source .venv/bin/activate
-```
-2. 安装依赖:
+[//]: # (1. 在项目根目录的控制台内激活虚拟环境（用的是虚拟环境，不影响外部环境）)
+
+[//]: # (```)
+
+[//]: # (# windows)
+
+[//]: # (.venv\Scripts\activate)
+
+[//]: # (```)
+
+[//]: # (```)
+
+[//]: # (# macOS / Linux)
+
+[//]: # (source .venv/bin/activate)
+
+[//]: # (```)
+安装依赖:
 ```
 pip install -r requirements.txt
 ```
-3. 启动:
+启动:
 ```
 python main.py
 ```
 
-4. 额外：如果你想控制音速，请安装ffmpeg然后再修改激活`audio_speed_controller`函数
+额外：如果你想控制音速，请安装ffmpeg然后再修改激活`audio_speed_controller`函数
 
 `ffmpeg` locally
 <br><br>I use `Google Translate` for mp3 making, pls make sure you can access `Google Translate`
