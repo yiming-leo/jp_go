@@ -14,15 +14,6 @@ from function.suuji import suuji
 os_cwd = os.getcwd()
 print(f"Current Work Dir: {os_cwd}")
 
-
-# Control Audio's Speed
-def audio_speed_controller(sound, speed=1.0):
-    modified_sound = sound._spawn(sound.raw_data, overrides={
-        "frame_rate": int(sound.frame_rate * speed)
-    })
-    return modified_sound.set_frame_rate(sound.frame_rate)
-
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print(f'====Japanese Start!====')

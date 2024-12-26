@@ -6,17 +6,18 @@ import openpyxl
 
 from gtts import gTTS
 from playsound import playsound
-from pydub import AudioSegment
+# from pydub import AudioSegment
 
 
 # 1. 听写单词
 
 # 音频播放速度控制函数
 def audio_speed_controller(sound, speed=1.0):
-    modified_sound = sound._spawn(sound.raw_data, overrides={
-        "frame_rate": int(sound.frame_rate * speed)
-    })
-    return modified_sound.set_frame_rate(sound.frame_rate)
+    # modified_sound = sound._spawn(sound.raw_data, overrides={
+    #     "frame_rate": int(sound.frame_rate * speed)
+    # })
+    # return modified_sound.set_frame_rate(sound.frame_rate)
+    return sound
 
 
 # 删除音频缓存函数
