@@ -34,10 +34,10 @@ def generate_mp3file(chosen_text="おはよう，日本！", sound_speed=1.0, mp
     tts_mp3file.save(mp3file_path)
 
     # If Sound Speed Need Adjust
-    if sound_speed != 1.0 and sound_speed != 0.9:
-        sound = AudioSegment.from_file(mp3file_path)
-        adjusted_speed_sound = audio_speed_controller(sound, speed=sound_speed)
-        adjusted_speed_sound.export(mp3file_path, format="mp3")
+    # if sound_speed != 1.0 and sound_speed != 0.9:
+    #     sound = AudioSegment.from_file(mp3file_path)
+    #     adjusted_speed_sound = audio_speed_controller(sound, speed=sound_speed)
+    #     adjusted_speed_sound.export(mp3file_path, format="mp3")
 
 
 # 播放单个音频函数
