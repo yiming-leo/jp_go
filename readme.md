@@ -21,5 +21,6 @@ pip install requirements.txt
 ```
 and install
 `ffmpeg` locally
+I use `Google Translate` for mp3 making, pls make sure you can access `Google Translate`
 ## User Guide
 the Excel file in `db` is for 言葉 storage, please add it or modify it when need more 言葉
