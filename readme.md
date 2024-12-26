@@ -15,12 +15,13 @@
 `gTTS` is for generate audio by Google Translate API
 <br>`playsound` is for play sound in code itself, rather than open mp3 file with player in Windows
 <br>`ffmpeg` is necessary to INSTALL LOCALLY for customize the speed of audio
+<br>
 need install: 
 ```
 pip install requirements.txt
 ```
 and install
 `ffmpeg` locally
-I use `Google Translate` for mp3 making, pls make sure you can access `Google Translate`
+<br><br>I use `Google Translate` for mp3 making, pls make sure you can access `Google Translate`
 ## User Guide
 the Excel file in `db` is for 言葉 storage, please add it or modify it when need more 言葉
