@@ -2,6 +2,16 @@ import random
 
 import dictation
 
+"""
+always_yen 是否要听写＋yen
+digit_start 最小位数
+digit_end 最大位数
+sound_speed 声音速度
+mp3file_path mp3路径（跟随main函数路径，请勿动）
+os_cwd 操作路径（跟随main函数路径，请勿动）
+delete_directory 删除mp3路径（跟随main函数路径，请勿动）
+"""
+
 
 def suuji(always_yen=1, digit_start=1, digit_end=6, sound_speed=1.1, mp3file_path='', os_cwd='', delete_directory=''):
     # make a random number
